@@ -1,0 +1,94 @@
+:root{
+    font-size: 25vmin;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+img{
+    padding: 0% 5%;
+}
+
+/*
+body{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.55s ease-out;
+    height: 100%
+}*/
+
+.button-box{
+    padding: 5% 25%;
+}
+.button-box p{
+    padding: 0px 0px;
+    font-size: 40px;
+} 
+/* ----------- Button #1----------------------- */
+#theme-change-btn-1{
+    font-size: inherit;
+    padding: 0.1em 0.4em;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.15s ease-out;
+}
+#theme-change-btn-1:hover{
+    font-size: inherit;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333;
+    text-decoration: underline;
+    background-color: #fff;
+    color: #333;
+}
+/* ----------- End of Button #1----------------------- */
+.dark-theme{
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme #theme-change-btn-1{
+    font-size: inherit;
+    padding: 0.1em 0.4em;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    color: #333;
+    /*color: #fff;*/
+}
+.dark-theme #theme-change-btn-1:hover{
+    font-size: inherit;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #fff;
+    text-decoration: underline;
+    background-color: #333;
+    color: #fff;
+}
+
+/* ----------- Image Button ----------------------- */
+
+#theme-change-btn-3{
+    font-size: inherit;
+    padding: 5% 10%;
+    cursor: pointer;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #333;
+    background-color: #fff;
+    transition: all 0.15s ease-out;
+}
+#theme-change-btn-3:hover{
+    filter: invert(100%);
+}
+.dark-theme #theme-change-btn-3{
+    filter: invert(100%);
+}
