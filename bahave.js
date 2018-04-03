@@ -1,0 +1,9 @@
+document.getElementById('theme-change-btn-1').addEventListener('click',function(){
+    document.body.classList.toggle('dark-theme');
+});
+document.getElementById('theme-change-btn-2').addEventListener('click',function(){
+    document.body.classList.toggle('dark-theme');
+});
+document.getElementById('theme-change-btn-3').addEventListener('click',function(){
+    document.body.classList.toggle('dark-theme');
+});
